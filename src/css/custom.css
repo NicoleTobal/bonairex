@@ -296,6 +296,16 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     top:50%;
 }
 
+.carousel .carousel-control.right {
+    position: absolute;
+    right: -50px;
+}
+
+.carousel .carousel-control.left {
+    position: absolute;
+    left: -50px;
+}
+
 /* About */
 .about_content {
     margin-right: 25px;
@@ -367,6 +377,11 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 
 /* Services */
+
+#services {
+    background-color: #7f8082;
+}
+
 #services h2 {
     margin: 85px 0 50px;
     text-align:center;
@@ -1021,6 +1036,5 @@ footer::after {
     .list-inline.footer_social_icon > li {
         padding: 8px 3px;
     }
-
-
+    
 }
